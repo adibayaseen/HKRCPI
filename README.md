@@ -9,11 +9,9 @@ python=3.6
 conda install -c conda-forge rdkit
 ```
 ## Dataset
-Dataset can be downloaded from this link [https://github.com/adibayaseen/HemoNet/blob/main/Datasets.docx]<br/>
-Seprate Hemolytic examples can be downloaded from here https://github.com/adibayaseen/HemoNet/blob/main/hemo_All_seq.txt<br/>
-Non-hemolytic examples can be downloaded from here https://github.com/adibayaseen/HemoNet/blob/main/Nonhemo_All_seq.txt <br/>
-External dataset from here https://github.com/adibayaseen/HemoNet/blob/b1291e5b378d1f11e9cf0dad407dc36fef26e806/HemolyticExternalwithNCmodification.txt <br/>
-Clinical dataset from here https://github.com/adibayaseen/HemoNet/blob/0052f9f33e49db889d0c128a0e4a1453ae1da78e/DRAMP_Clinical_data.txt <br/>
+NR-HCPI Dataset can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/tree/main/Datasets/NR-HCPI]<br/>
+External dataset from here https://github.com/adibayaseen/HKRCPI/blob/main/Datasets/BindingDB_m62021_top4000_1783000nM.txt <br/>
+SuperDrugbank2 dataset from here https://github.com/adibayaseen/HKRCPI/blob/main/Datasets/approved_drugs_chemical_structure_identifiers.xlsx <br/>
 ## Code Structure
 [weights.hdf ](https://github.com/adibayaseen/HemoNet/blob/main/weights.hdf)file have link of google drive in which neural network weights  of SeqVec features are stored <br/>
 [5-foldResultsComparison.py](https://github.com/adibayaseen/HemoNet/blob/b000b4522c3a0b64109db32b3667047804ef12d4/5-foldResultsComparison.py) is used for 5-fold comparison with existing models and basline results.<br/>
