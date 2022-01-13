@@ -17,6 +17,7 @@ Supplementary data can be downloaded from this link [https://github.com/adibayas
 ## SARS-Cov2 Results
 Median ranks along with names of top drugs predicted from our model can be downloaded from this link   [https://github.com/adibayaseen/HKRCPI/blob/main/ACE2%20and%20Spike%20Median%20Results%20Excluding%20Lightweight%20Compounds.xlsx]<br/>
 ## Code Structure
+[Proposed model](https://colab.research.google.com/drive/1ihMYIuz_s3JlabfLcrd0o7PXSgeGAGQ9?usp=sharing) used for prediction of test file in given format<br/>) 
 [weights.hdf ](https://github.com/adibayaseen/HemoNet/blob/main/weights.hdf)file have link of google drive in which neural network weights  of SeqVec features are stored <br/>
 [5-foldResultsComparison.py](https://github.com/adibayaseen/HemoNet/blob/b000b4522c3a0b64109db32b3667047804ef12d4/5-foldResultsComparison.py) is used for 5-fold comparison with existing models and basline results.<br/>
 [HemoNet10RunsResults](https://github.com/adibayaseen/HemoNet/blob/87270b7deeb05334e7c3ffe84476a56061b11229/HemoNet10RunsResults(%205-fold%20and%20Non-redundant).py)( 5-fold and Non-redundant) is used for HemoNet's all methods(5-fold and Non-redundant Cross-Validation Analysis)<br/>
@@ -26,7 +27,6 @@ Median ranks along with names of top drugs predicted from our model can be downl
 [Results.py](https://github.com/adibayaseen/HemoNet/blob/b000b4522c3a0b64109db32b3667047804ef12d4/Results.py) used for result in multiple runs(10)<br/>
 ## Generate predictions
 Input File format <br/>
->Id_Nterminal_CTerminal<br/>
-sequence<br/>
+> SMILES of Compound Protein Sequence label<br/>
 [Sample External data](https://github.com/adibayaseen/HemoNet/blob/447bc1f0253e9c1da4f9f9afee2728ca06de5be3/HemolyticExternalwithNCmodification.txt)<br/>
 [Genearate_Prediction](https://colab.research.google.com/drive/1ihMYIuz_s3JlabfLcrd0o7PXSgeGAGQ9?usp=sharing) used for prediction of test file in given format<br/>
