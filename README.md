@@ -32,10 +32,10 @@ Median ranks for ACE2 and Spike proteins along with names of top drugs predicted
 [Proposed model](https://colab.research.google.com/drive/1ihMYIuz_s3JlabfLcrd0o7PXSgeGAGQ9?usp=sharing) used for prediction of test file in given format<br/>
 [Baseline SVM](https://colab.research.google.com/drive/1qMFqYPFBxeydNnf_NxGY5XS7AmWEmVcG?usp=sharing) used for baseline results.<br/> 
 [Product Kernel SVM](https://colab.research.google.com/drive/1o78nKbk3t-KjUniTxUHBOgY5QTzJjr85?usp=sharing)used for experimental setup of product kernel.<br/> 
-[Validation over BindingDB](https://colab.research.google.com/drive/1IuX0taNfWNt0DttZ8eM4IwSrn2QRCXvd?usp=sharing) used for <br/> 
+[Validation over BindingDB](https://colab.research.google.com/drive/1IuX0taNfWNt0DttZ8eM4IwSrn2QRCXvd?usp=sharing) used for validation over experimentally verified negative examples from Binding DB  <br/> 
 [Dissimilarity Controlled Negative Examples generation](https://colab.research.google.com/drive/1IuX0taNfWNt0DttZ8eM4IwSrn2QRCXvd?usp=sharing) Dissimilarity Controlled Negative Examples generation and proposed method. <br/>
-[RFPP](https://colab.research.google.com/drive/1I-x5E7SxAwcepfC7zOD-2r9OnPGyEXLr?usp=sharing)<br/>
-[RFPP with SuperDrug2](https://colab.research.google.com/drive/13TUFUGSpHsmw6qgK2MLd6pF2eaxHd6tD?usp=sharing) used for drug repurposing. <br/>
+[RFPP](https://colab.research.google.com/drive/1I-x5E7SxAwcepfC7zOD-2r9OnPGyEXLr?usp=sharing) Screening with Non-redundant Cross-validation (NRCV) where we train a model using training folds of the NRCV dataset and then compute prediction scores of all-vs-all compound-protein pairs in the test fold using the trained model (see supplementary information file for an illustration) and rank of first positive pair (RFPP) is calculated<br/>
+[RFPP with SuperDrug2](https://colab.research.google.com/drive/13TUFUGSpHsmw6qgK2MLd6pF2eaxHd6tD?usp=sharing) used for drug-repurposing analysis with the proposed model, we used the SuperDRUG2 dataset containing 3,633 FDA-approved drugs. In this experiment, a CPI model is first trained on all examples in training folds of the NRCV dataset and then used to generate prediction scores for all proteins in the test fold paired with all compounds in the SuperDRUG2 database (see supple-mentary material for an illustration of the experimental setup).  <br/>
 ## Generate predictions
 Input File format <br/>
 > SMILES of Compound Protein Sequence label<br/>
