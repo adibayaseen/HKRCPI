@@ -39,5 +39,5 @@ Median ranks for ACE2 and Spike proteins along with names of top drugs predicted
 ## Generate predictions
 Input File format <br/>
 > SMILES of Compound Protein Sequence label<br/>
-[Sample input data](https://github.com/adibayaseen/HemoNet/blob/447bc1f0253e9c1da4f9f9afee2728ca06de5be3/HemolyticExternalwithNCmodification.txt)<br/>
+[Sample input data](https://github.com/adibayaseen/HKRCPI/blob/0f1153be22c4ce6235259bef8cff1dd820e69a39/Sample%20Data)<br/>
 [Genearate_Prediction](https://colab.research.google.com/drive/18576Mvg2tHovQweM3LD9Hkj68MSzZoO9?usp=sharing) used for prediction of test file in given format<br/>
