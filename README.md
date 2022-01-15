@@ -2,6 +2,16 @@
 HKRCPI: Heterogeneous Kernel Representation for Compound-Protein Interaction Prediction 
 A Heterogeneous Kernel-based method that perdict classification of a compound and protein pair as interacting or non-interacting.This network captures protein features and Circular Fingerprint repersatation of SMILES.
 # Abstract
+Abstract
+Motivation:
+Machine learning based prediction of compound-protein interactions (CPIs) is important for drug design, screening and repurposing studies and can improve the efficiency and cost-effectiveness of wet lab assays. Despite the publication of many research papers reporting CPI predictors in the recent years, we have observed a number of fundamental issues in experiment design that lead to over optimistic estimates of model performance.
+Results:
+In this paper, we analyze the impact of several important factors affecting generalization perfor-mance of CPI predictors that are overlooked in existing work:
+1.	Similarity between training and test examples in cross-validation
+2.	The strategy for generating negative examples, in the absence of experimentally verified negative examples.
+3.	Choice of evaluation protocols and performance metrics and their alignment with real-world use of CPI predictors in screening large compound libraries.
+Using both an existing state-of-the-art method (CPI-NN) and a proposed kernel based approach,
+we have found that assessment of predictive performance of CPI predictors requires careful con-trol over similarity between training and test examples.  We also show that random pairing for gen-erating synthetic negative examples for training and performance evaluation results in models with better generalization performance in comparison to more sophisticated strategies used in existing studies. Furthermore, we have found that our kernel based approach, despite its simple design, exceeds the prediction performance of CPI-NN.  We have used the proposed model for compound screening of several proteins including SARS-CoV-2 Spike and Human ACE2 proteins and found strong evidence in support of its top hits.
 
 ## Set Up Environment
 ```
