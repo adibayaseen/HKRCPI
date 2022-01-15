@@ -1,6 +1,7 @@
-# HKRCPI
-HKRCPI: Heterogeneous Kernel Representation for Compound-Protein Interaction Prediction (
+
 # Insights into performance evaluation of compound-protein interaction prediction methods 
+# HKRCPI
+HKRCPI: Heterogeneous Kernel Representation for Compound-Protein Interaction Prediction
 A Heterogeneous Kernel-based method that perdict classification of a compound and protein pair as interacting or non-interacting.This network captures protein features and Circular Fingerprint repersatation of SMILES.
 # Abstract
 Abstract
