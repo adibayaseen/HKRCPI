@@ -55,7 +55,7 @@ File should be like Compound<space>Protein <space> label <newline>
 NegtiveRatio='7'
 path='/content/drive/MyDrive/CPI_Data/'
 ```
-* Select __NegtiveRatio from 1,3,5, and 7 and set __path of the dataset and SuperDrugbank in case of TCS( Top predictions for given protein sequence.
+* Select _**NegtiveRatio** from 1,3,5, and 7 and set **path** of the dataset and SuperDrugbank in case of TCS( Top predictions for given protein sequence.
 ## For Prediction from given compound protein pair:
 If pair is given in the given sample style, prediction score from our model can generated and saved in the given path as excel file<br/>
 ```
@@ -68,7 +68,7 @@ DataWriteTestfilepair(Testfile,NegtiveRatio,len(testscore),f,testP,testC,testsco
 ```
 * Data can be written in excel file for every fold <br/>
 ## For TCS: <br/>
-specify __s, __sname and __n (s is the protein sequence, n is the top predictions that you want to see) returns __sorted_SuperdrugNames,__sorted_score
+specify **s**, **sname** and **n** (s is the protein sequence, n is the top predictions that you want to see) returns **sorted SuperdrugNames**,**sortedscore**
 ```
 sName='mytest'
 n=100
