@@ -56,6 +56,8 @@ NegtiveRatio='7'
 path='/content/drive/MyDrive/CPI_Data/'
 ```
 * Select NegtiveRatio from 1,3,5, and 7 and set path of the dataset and SuperDrugbank in case of TCS( Top predictions for given protein sequence.
+# For Prediction from given compound protein pair:
+If pair is given in the given sample style, prediction score from our model can generated and saved in the given path as excel file<br/>
 ```
 Testfilename ='TestHKRCPI'
 testscore, testP,testC,testY =PredictscorefromTestPairFile(path,Testfilename+'.txt',Ptr, Ctr,Pscaler,Cscaler)
