@@ -25,9 +25,17 @@ NR-HCPI Dataset can be downloaded from this link [https://github.com/adibayaseen
 External dataset from here https://github.com/adibayaseen/HKRCPI/blob/main/Datasets/BindingDB_m62021_top4000_1783000nM.txt <br/>
 SuperDrugbank2 dataset from here https://github.com/adibayaseen/HKRCPI/blob/main/Datasets/approved_drugs_chemical_structure_identifiers.xlsx <br/>
 ## Supplementary Data
+* Comparative results for different Kernels can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/main/Supplementary%20data.docx]<br/><br/>
+* Experimental setup for screening with Non-redundant Cross-validation (NRCV) or Screening SuperDRUG2 can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/main/Supplementary%20data.docx]<br/><br/>
+* Experimental setup for RFPP calculation can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/main/Supplementary%20data.docx]<br/> <br/>
+* Comparison of non-redundant cross-validation (CV) results of our proposed model with previous method CPI-NN using 40% redundancy removal  can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/main/Supplementary%20data.docx]<br/><br/>
+* Target Compound Screening (TCS) for Drugreprurposing RFPP for  the test set for CPINN and our proposed model results comparison can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/main/Supplementary%20data.docx]<br/><br/>
+* Target Compound Screening (TCS) for Drugreprurposing scores for all pairs of proteins in the test set for one fold can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/main/Supplementary%20data.docx]<br/><br/>
+* RFPP of TCS proteins in the test fold (RFPP of protein whos all pair scores mentioned in the previous file can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/main/Supplementary%20data.docx]<br/><br/>
 Supplementary data can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/main/Supplementary%20data.docx]<br/>
-* SARS-Cov2 Results
-Median ranks for ACE2 and Spike proteins along with names of top drugs predicted from our model can be downloaded from this link   [https://github.com/adibayaseen/HKRCPI/blob/main/ACE2%20and%20Spike%20Median%20Results%20Excluding%20Lightweight%20Compounds.xlsx]<br/>
+* SARS-Cov2 Results and Supporting Evidence can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/main/Supplementary%20data.docx]<br/>
+* SARS-Cov2 all results with top 100 predictions from our model can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/main/Supplementary%20data.docx]<br/>
+* SARS-Cov2 Median ranks for ACE2 and Spike proteins along with names of top drugs predicted from our model can be downloaded from this link   [https://github.com/adibayaseen/HKRCPI/blob/main/ACE2%20and%20Spike%20Median%20Results%20Excluding%20Lightweight%20Compounds.xlsx]<br/>
 ## Code Structure
 [Proposed model](https://colab.research.google.com/drive/1mkAFLcYeHQED0p2qvn92178cmlO9SEIP?usp=sharing) used for prediction of test file in given format<br/>
 [Baseline SVM](https://colab.research.google.com/drive/1qMFqYPFBxeydNnf_NxGY5XS7AmWEmVcG?usp=sharing) used for baseline results.<br/> 
