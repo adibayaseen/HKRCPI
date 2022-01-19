@@ -26,7 +26,7 @@ External dataset from here https://github.com/adibayaseen/HKRCPI/blob/main/Datas
 SuperDrugbank2 dataset from here https://github.com/adibayaseen/HKRCPI/blob/main/Datasets/approved_drugs_chemical_structure_identifiers.xlsx <br/>
 ## Supplementary Data
 Supplementary data can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/main/Supplementary%20data.docx]<br/>
-## SARS-Cov2 Results
+*SARS-Cov2 Results
 Median ranks for ACE2 and Spike proteins along with names of top drugs predicted from our model can be downloaded from this link   [https://github.com/adibayaseen/HKRCPI/blob/main/ACE2%20and%20Spike%20Median%20Results%20Excluding%20Lightweight%20Compounds.xlsx]<br/>
 ## Code Structure
 [Proposed model](https://colab.research.google.com/drive/1mkAFLcYeHQED0p2qvn92178cmlO9SEIP?usp=sharing) used for prediction of test file in given format<br/>
