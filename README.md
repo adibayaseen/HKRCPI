@@ -48,7 +48,32 @@ Input File format <br/>
 > SMILES of Compound Protein Sequence label<br/>
 [Sample input data](https://github.com/adibayaseen/HKRCPI/blob/0f1153be22c4ce6235259bef8cff1dd820e69a39/Sample%20Data)<br/>
 ```
-File should be like Compound<space>Protein <space> label <newline> <br/>
+File should be like Compound<space>Protein <space> label <newline>
 ```
 [Genearate_Prediction](https://colab.research.google.com/drive/18576Mvg2tHovQweM3LD9Hkj68MSzZoO9?usp=sharing) used for prediction of test file in given format<br/>
+```
+NegtiveRatio='7'
+path='/content/drive/MyDrive/CPI_Data/'
+```
+Select NegtiveRatio from 1,3,5, and 7 and set path of the dataset and SuperDrugbank in case of TCS( Top predictions for given protein sequence.
+```
+Testfilename ='TestHKRCPI'
+testscore, testP,testC,testY =PredictscorefromTestPairFile(path,Testfilename+'.txt',Ptr, Ctr,Pscaler,Cscaler)
+```
+You can use generate prediction from pair if you have pair of compound and protein, TCS with SuperDrug if you have only one protein and want to see its top predictions 
+```
+DataWriteTestfilepair(Testfile,NegtiveRatio,len(testscore),f,testP,testC,testscore)
+```
+Data can be written in excel file for every fold
+#For TCS: <br/>
+#specify *s, *sname and *n (s is the protein sequence, n is the top predictions that you want to see) returns *sorted_SuperdrugNames,*sorted_score
+```
+sName='mytest'
+n=100
+s='MSSSSWLLLSLVAVTAAQSTIEEQTSF'
+```
+Topdrugs, Topdrugscores=PredictTopNscores(path,Ptr, Ctr,s,n) 
+DataWriteTestfilepair(Testfile,NegtiveRatio,n,f,s,Topdrugs,Topdrugscores) 
+Data can be written in excel file for every fold
+
 
