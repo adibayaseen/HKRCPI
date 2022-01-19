@@ -43,20 +43,20 @@ SuperDrugbank2 dataset from here https://github.com/adibayaseen/HKRCPI/blob/main
 [Dissimilarity Controlled Negative Examples generation](https://colab.research.google.com/drive/1IuX0taNfWNt0DttZ8eM4IwSrn2QRCXvd?usp=sharing) Dissimilarity Controlled Negative Examples generation and proposed method. <br/>
 [RFPP](https://colab.research.google.com/drive/1I-x5E7SxAwcepfC7zOD-2r9OnPGyEXLr?usp=sharing) Screening with Non-redundant Cross-validation (NRCV) where we train a model using training folds of the NRCV dataset and then compute prediction scores of all-vs-all compound-protein pairs in the test fold using the trained model (see supplementary information file for an illustration) and rank of first positive pair (RFPP) is calculated<br/>
 [RFPP with SuperDrug2](https://colab.research.google.com/drive/13TUFUGSpHsmw6qgK2MLd6pF2eaxHd6tD?usp=sharing) used for drug-repurposing analysis with the proposed model, we used the SuperDRUG2 dataset containing 3,633 FDA-approved drugs. In this experiment, a CPI model is first trained on all examples in training folds of the NRCV dataset and then used to generate prediction scores for all proteins in the test fold paired with all compounds in the SuperDRUG2 database (see supple-mentary material for an illustration of the experimental setup).  <br/>
-## Generate predictions
+# Generate predictions
 * Input File format <br/>
 > SMILES of Compound Protein Sequence label<br/>
 [Sample input data](https://github.com/adibayaseen/HKRCPI/blob/0f1153be22c4ce6235259bef8cff1dd820e69a39/Sample%20Data)<br/>
 ```
 File should be like Compound<space>Protein <space> label <newline>
 ```
-[Genearate_Prediction](https://colab.research.google.com/drive/18576Mvg2tHovQweM3LD9Hkj68MSzZoO9?usp=sharing) used for prediction of test file in given format<br/>
+[Genearate_Prediction](https://colab.research.google.com/drive/1SUJ0HGRUPOU5pqkRsEzBSAl5Vmt8fFEE?usp=sharing) used for prediction of test file in given format<br/>
 ```
 NegtiveRatio='7'
 path='/content/drive/MyDrive/CPI_Data/'
 ```
 * Select NegtiveRatio from 1,3,5, and 7 and set path of the dataset and SuperDrugbank in case of TCS( Top predictions for given protein sequence.
-# For Prediction from given compound protein pair:
+## For Prediction from given compound protein pair:
 If pair is given in the given sample style, prediction score from our model can generated and saved in the given path as excel file<br/>
 ```
 Testfilename ='TestHKRCPI'
@@ -67,7 +67,7 @@ testscore, testP,testC,testY =PredictscorefromTestPairFile(path,Testfilename+'.t
 DataWriteTestfilepair(Testfile,NegtiveRatio,len(testscore),f,testP,testC,testscore)
 ```
 * Data can be written in excel file for every fold <br/>
-# For TCS: <br/>
+## For TCS: <br/>
 #specify *s, *sname and *n (s is the protein sequence, n is the top predictions that you want to see) returns *sorted_SuperdrugNames,*sorted_score
 ```
 sName='mytest'
