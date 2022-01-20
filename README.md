@@ -25,7 +25,7 @@ NR-HCPI Dataset can be downloaded from this link [https://github.com/adibayaseen
 External dataset from here https://github.com/adibayaseen/HKRCPI/blob/main/Datasets/BindingDB_m62021_top4000_1783000nM.txt <br/>
 SuperDrugbank2 dataset from here https://github.com/adibayaseen/HKRCPI/blob/main/Datasets/approved_drugs_chemical_structure_identifiers.xlsx <br/>
 ## Supplementary Data
-* **a**Comparative results for different Kernels can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/5b07821293317a980e3989e281594a4a9f367d53/Table%201%20comparative%20results%20for%20different%20Kernels.docx] <br/>
+* (a) Comparative results for different Kernels can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/5b07821293317a980e3989e281594a4a9f367d53/Table%201%20comparative%20results%20for%20different%20Kernels.docx] <br/>
 * **b**Experimental setup for screening with Non-redundant Cross-validation (NRCV) or Screening SuperDRUG2 can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/5b07821293317a980e3989e281594a4a9f367d53/Experimental%20setup%20for%20screening%20with%20Non-redundant%20Cross-validation%20(NRCV)%20or%20Screening%20SuperDRUG2.docx]<br/>
 * **c**Experimental setup for RFPP calculation can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/5b07821293317a980e3989e281594a4a9f367d53/Experimental%20setup%20for%20RFPP%20calculation.docx] <br/>
 * Comparison of non-redundant cross-validation (CV) results of our proposed model with previous method CPI-NN using 40% redundancy removal  can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/5b07821293317a980e3989e281594a4a9f367d53/NRCV%2040%20percent.docx]<br/>
