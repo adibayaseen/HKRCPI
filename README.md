@@ -26,7 +26,7 @@ External dataset from here https://github.com/adibayaseen/HKRCPI/blob/main/Datas
 SuperDrugbank2 dataset from here https://github.com/adibayaseen/HKRCPI/blob/main/Datasets/approved_drugs_chemical_structure_identifiers.xlsx <br/>
 ## Supplementary Data
 * (a) Selection criteria applied to Binding DB for generating the nega-tive dataset can be downloaded from this link 
-[https://github.com/adibayaseen/HKRCPI/blob/1ce9f69328c407f7e630d6b893ebbde42af03854/Selection%20criteria%20applied%20to%20Binding%20DB%20for%20generating%20the%20nega-tive%20dataset.docx] <br/>
+[https://github.com/adibayaseen/HKRCPI/blob/25f5d4426f01806da123093685fe4632624f3319/Selection%20criteria%20applied%20to%20Binding%20DB%20for%20generating%20the%20nega-tive%20dataset.docx] <br/>
 * (b) Comparative results for different Kernels can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/5b07821293317a980e3989e281594a4a9f367d53/Table%201%20comparative%20results%20for%20different%20Kernels.docx] <br/>
 * (c) Experimental setup for screening with Non-redundant Cross-validation (NRCV) or Screening SuperDRUG2 can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/5b07821293317a980e3989e281594a4a9f367d53/Experimental%20setup%20for%20screening%20with%20Non-redundant%20Cross-validation%20(NRCV)%20or%20Screening%20SuperDRUG2.docx]<br/>
 * (d) Experimental setup for RFPP calculation can be downloaded from this link [https://github.com/adibayaseen/HKRCPI/blob/5b07821293317a980e3989e281594a4a9f367d53/Experimental%20setup%20for%20RFPP%20calculation.docx] <br/>
